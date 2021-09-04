@@ -1,5 +1,5 @@
 # ArduinoLCM
-Franclin oscillator method LC meter
+LC meter based on Franclin oscillator
 
 [フランクリン発振回路を使用したLCメーター]
 [The LC meter composed by Franclin oscillator.]
@@ -22,19 +22,19 @@ WEBサイトもありましたが、今は404 not foundになっています。�
 AADE（ボーイング社のOBらしい）が製品化して販売してました。日本では
 ストロベリーリナックス社が10年以上前から製品化されています。
 
-You might hear the name of Franclin as a famous engineer of scientific technology. 
-He was famous for his thunder experiment utilized the kite. And he left the original idea 
+You may hear the name of Franclin as a famous engineer of scientific technology. 
+He was famous for his thunder experiment utilizing the kite. And he left the original idea 
 for the Franclin antenna and the Franclin oscillator circuit also. The Franclin oscillator is 
-composed by the LC resonator and the phase reversed amplifier. The digital capability 
+composed by the LC resonator and the phase inverting amplifier. The digital capability 
 had lead LC meter which was calculating L or C value from the basic capacitor's capacitance  
-by solving correlated equation from the oscillation frequency value.
+by solving correlated equation from the oscillation frequency number.
 
 [To compose the Franclin oscillator and MPU ]
-A certain East Europa electronics engineer found that this idea in along 1990’s. After then 
-the Australian Ham magazine had picked it up as a technical article. Some there had 
-been explanation WEBs but now they had been 404 not found. At that days 
-AADE( On his WEB he wrote that he had been a Boeing engineer.) had introduced this circuit, produced, and sold these 
-products for HAMs. In Japan the Strawberry-Linux company had developed a clone
+A certain Eastern Europian electronics engineer found this idea in along 1990’s. After then 
+the Australian Ham magazine had picked it up as a technical article. At that time there had 
+been explanation WEBs but now they had been 404 not found. At same time 
+AADE( On his WEB he wrote that he had been a Boeing engineer.) had introduced this circuit, produced, 
+and sold these products for HAMs. In Japan the Strawberry-Linux company had developed a clone
 and sold those for HAMs.
 
 
@@ -48,20 +48,20 @@ and sold those for HAMs.
 // e.	被測定L2をL1へ直列につなぎF31=1/2*π*sqrt(C1*(L1+L2))からL2を算出する。
 被測定C3の場合は並列につないでF32=1/2*π*sqrt((C1+C3)*L1)から算出する。
 
-There are explanation how to calculate the capacitance or the inductance.
+Below is explanation how to calculate the capacitance or the inductance.
 // a. To oscillate and measure the frequency of F1.
 // b. To add the standard capacitor paralleled and get the frequency of F2.
-// c. There are two equation for the circuit. F1＝1/2*π*sqrt(C1*L1),F2=1/2*π*sqrt((C1+C2)*L1).
-// d. F1, F2, C2 are keeping valid value. We could draw C1 and L1 by mathmatical process.
+// c. There are two equation for the circuit. F1＝1/2*π*sqrt(C1*L1), F2=1/2*π*sqrt((C1+C2)*L1).
+// d. F1, F2, C2 are keeping valid value. We could draw C1 and L1 by mathematical process.
 // e. When you put L2 serially and get F31, you shall draw L2 out of equation also C3 by F32.
-F31=1/2*π*sqrt(C1*(L1+L2)),F32=1/2*π*sqrt((C1+C3)*L1)
+F31=1/2*π*sqrt(C1*(L1+L2)), F32=1/2*π*sqrt((C1+C3)*L1)
 
 以上からArduinoのスケッチで必要なことは「周波数のカウント」「測定時のLCつなぎ替え」
 「周波数からインダクタンスやキャパシタンスへの変換」「SWリレー制御とLCD表示」となります。
 スケッチはGITHUBで公開しております。上記の処理を淡々と描いたものなのでコメントが不十分ですが、
 ご理解できると思います。
-Arduino circuit is expected frequency counting and wiring to change LCs.
-Also sketch shall calculate to convert the frequecy to the inductance or the 
+Arduino circuit is expected to count the frequency and to change wiring LCs.
+Also sketch shall calculate to convert the frequency into the inductance or the 
 capacitance and to display such data.
 
 Please refer the sketch itself.
@@ -77,9 +77,9 @@ Please refer the sketch itself.
 
 回路図は次になります。
 
-I use 74HCU04 inverter IC for the Franclin oscillator. To switch the 
-standard capacitor I'm adopted the relay. If you use semiconductor switching,
-accuracy may decline. The two pole two circuit switch is neccesary for LC change.
+I use 74HCU04 inverter IC for the Franclin oscillator. For the sake of switching the 
+standard capacitor, I had adopted the relay. If you use semiconductor switching,
+accuracy may decline. The two pole two circuit switch is necessary for LC change.
 I use i2c interfacing LCD for display.
 
 There are the circuit diagrams on below site.
@@ -93,7 +93,7 @@ https://cdn-ak.f.st-hatena.com/images/fotolife/n/nobcha23/20200726/2020072621485
 なお、MPUをPICで組んでいた時の名残で5Vリレーをデジタルトランジスタ経由で駆動していますが、
 Arduinoのポートだと直接駆動も可能と思われます。
 
-You may use VANILA shield for this circuit trial.
+You may use VANILA shield for this circuit as trial.
 When I could success to make PCB, I may deliver PCB for Arduino nano. 
 
 　　nobcha48　AT　gmail.com
