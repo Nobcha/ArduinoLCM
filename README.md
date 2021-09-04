@@ -12,7 +12,7 @@ I will introduce the LC meter controlled by Arduino.
 無線関係でフランクリンという名前を聞かれたことがあると思います。雷の実験で有名ですが、
 無線関係でフランクリンアンテナやフランクリン発振回路などのアイデアも残されました。
 フランクリン発振回路はLC共振回路を使い、位相反転増幅器と組み合わせ、
-逆相信号を帰還し発振させる方式です。
+逆相信号を負帰還し発振させる方式です。
 このフランクリン発振回路とマイコンの周波数カウンター機能を組み合わせ、基準Cを利用し
 発振周波数から連立方程式を解くことで被測定LあるいはCの値を求めるという方式が
 今回紹介するLCメーターです。
@@ -33,7 +33,7 @@ by solving correlated equation from the oscillation frequency value.
 A certain East Europa electronics engineer found that this idea in along 1990’s. After then 
 the Australian Ham magazine had picked it up as a technical article. Some there had 
 been explanation WEBs but now they had been 404 not found. At that days 
-AADE( Who might be a Booing engineer.) had introduced this circuit, produced, and sold these 
+AADE( On his WEB he wrote that he had been a Boeing engineer.) had introduced this circuit, produced, and sold these 
 products for HAMs. In Japan the Strawberry-Linux company had developed a clone
 and sold those for HAMs.
 
@@ -89,10 +89,11 @@ https://cdn-ak.f.st-hatena.com/images/fotolife/n/nobcha23/20200726/2020072621485
 4. 実験基板について  [How to assemble the circuit.]
 
 バニラシールドなどのブレッドボードに組めば実験は簡単にできます。
-手持ち自作測定器用として、Arduino　Nanoで制御する基板を作りました。興味ある方お問い合わせください。
+手持ち自作測定器用として、Arduino　Nanoで制御する基板を作製中です。
 なお、MPUをPICで組んでいた時の名残で5Vリレーをデジタルトランジスタ経由で駆動していますが、
 Arduinoのポートだと直接駆動も可能と思われます。
 
 You may use VANILA shield for this circuit trial.
 When I could success to make PCB, I may deliver PCB for Arduino nano. 
-If you are interested in this trial, please give me notice.
+
+　　nobcha48　AT　gmail.com
