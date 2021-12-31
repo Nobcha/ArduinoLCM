@@ -44,9 +44,9 @@ Below is explanation how to calculate the capacitance or the inductance.
 F31=1/2*π*sqrt(C1*(L1+L2)), F32=1/2*π*sqrt((C1+C3)*L1)
 
 以上からArduinoのスケッチで必要なことは「周波数のカウント」「測定時のLCつなぎ替え」「周波数からインダクタンスやキャパシタンスへの変換」「SWリレー制御とLCD表示」となります。
-スケッチはGITHUBで公開しております。上記の処理を淡々と描いたものなのでコメントが不十分ですが、ご理解できると思います。
+スケッチはGITHUBで公開しております。上記の処理を淡々と描いたものなのでコメントが不十分ですが、ご理解できると思います。内容を見直しV2.4のスケッチをアップロードしました。
 Arduino circuit is expected to count the frequency and to change wiring LCs.
-Also sketch shall calculate to convert the frequency into the inductance or the capacitance and to display such data.
+Also sketch shall calculate to convert the frequency into the inductance or the capacitance and to display such data. The newest version is V2.4.
 
 Please refer the sketch itself.
 
@@ -68,7 +68,11 @@ There are the circuit diagrams on below site.
 https://cdn-ak.f.st-hatena.com/images/fotolife/n/nobcha23/20200714/20200714202214.jpg
 https://cdn-ak.f.st-hatena.com/images/fotolife/n/nobcha23/20200726/20200726214857.jpg
 
-4. 実験基板について  [How to assemble the circuit.]
+4.使い方について　  [How to use the circuit.]
+YOUTUBEに使い方の映像をアップしました。
+I had uploaded the video how to use it on YOUTUBE.  https://youtu.be/LxzoExQPcYk
+
+5. 実験基板について  [How to assemble the circuit.]
 
 バニラシールドなどのブレッドボードに組めば実験は簡単にできます。
 手持ち自作測定器用として、Arduino　Nanoで制御する基板を作製中です。
