@@ -13,7 +13,7 @@ I will introduce the LC meter controlled by Arduino.
 このフランクリン発振回路とマイコンの周波数カウンター機能を組み合わせ、
 基準Cを利用し発振周波数から連立方程式を解くことで被測定LあるいはCの値を求めるという方式が今回紹介するLCメーターです。
 1990年ごろに東欧の技術者の方がアイデアを発案され、1995年ごろのオーストラリアのアマチュア無線誌に掲載されたのが普及した始まりのようです。
-その前にアメリカのAADE（ボーイング社のOBらしい）が製品化して販売してました。日本ではストロベリーリナックス社も10年以上前から製品化されています。
+その前にアメリカのAADEが製品化,回路とプログラム公開し販売してました。日本でもストロベリーリナックス社が10年以上前から製品化されています。
 
 The Franclin oscillator is composed by the LC resonator and the phase inverting amplifier. 
 The digital capability could lead LC meter which was calculating L or C value from the basic capacitor's capacitance by solving correlated equation from the oscillation frequency number.
@@ -21,7 +21,7 @@ The digital capability could lead LC meter which was calculating L or C value fr
 [To compose the Franclin oscillator and MPU ]
 A certain Eastern Europian electronics engineer found this idea in along 1990’s. 
 After then the Australian Ham magazine had picked it up as a technical article. 
-At that time AADE( On his WEB he wrote that he had been a Boeing engineer.) had already introduced this circuit, produced, and sold as a product for HAMs. 
+At that time AADE had already introduced this circuit, produced, and sold as a product for HAMs. 
 In Japan the Strawberry-Linux company had developed a clone and sold those for HAMs.
 
 
@@ -78,5 +78,10 @@ I had uploaded the video how to use it on YOUTUBE.  https://youtu.be/LxzoExQPcYk
 手持ち自作測定器用として、Arduino　Nanoで制御する基板を作製中です。
 
 You may use VANILA shield for this circuit as trial.
+
+----------------------------------------------------
+アルディーノnanoを使って構成する基板をKiCADで作りました。また、その基板をマルタ島ハムが追試した際の意見を取り入れスケッチを改良（V2）しました。基板のガーバーデータと改良スケッチをアップロードします。
+
+After then I designed PCB with Arduino nano on KiCAD. A HAM in Malta island tried to make that and he gave several improving ideas. I will upload the Gerber data and new sketch　V2.
 
 　　nobcha48　AT　gmail.com
