@@ -85,4 +85,5 @@ You may use VANILA shield for this circuit as trial.
 
 After then I designed PCB with Arduino nano on KiCAD. A HAM in Malta island tried to make that and he gave several improving ideas. I will upload the Gerber data and new sketch　V2.
 
+https://patreon.com/user?u=60539735
 　　nobcha48　AT　gmail.com
