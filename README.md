@@ -71,6 +71,7 @@ https://cdn-ak.f.st-hatena.com/images/fotolife/n/nobcha23/20200726/2020072621485
 4.使い方について　  [How to use the circuit.]
 YOUTUBEに使い方の映像をアップしました。
 I had uploaded the video how to use it on YOUTUBE.  https://youtu.be/LxzoExQPcYk
+https://www.youtube.com/watch?v=Qb1QssrIE6A
 
 5. 実験基板について  [How to assemble the circuit.]
 
