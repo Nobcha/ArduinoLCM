@@ -87,5 +87,8 @@ After then I designed PCB with Arduino nano on KiCAD. A HAM in Malta island trie
 
 ”LCM_NANO.zip” is Gerber files.
 
+PCBGOGOでは１ドルで基板が作れるというキャンペーンをやっています。下記リンクからユーザー登録し、上記ファイルを送ればプリント基板が入手できます。
+https://www.pcbgogo.jp/promo/nobcha23
+
 https://patreon.com/user?u=60539735
 　　nobcha48　AT　gmail.com
