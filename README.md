@@ -24,7 +24,7 @@ After then the Australian Ham magazine had picked it up as a technical article.
 At that time AADE had already introduced this circuit, produced, and sold as a product for HAMs. 
 In Japan the Strawberry-Linux company had developed a clone and sold those for HAMs.
 
-https://github.com/Nobcha/ArduinoLCM/blob/main/2022-09-08%20CASE.jpg
+
 2. 測定原理　　[The principal]
 
 前置きは以上にして、ArduinoでLC測定のやり方ですが、LC値の導出計算方法は次になります。
@@ -79,6 +79,8 @@ https://www.youtube.com/watch?v=Qb1QssrIE6A
 手持ち自作測定器用として、Arduino　Nanoで制御する基板を作製中です。
 
 You may use VANILA shield for this circuit as trial.
+
+https://github.com/Nobcha/ArduinoLCM/blob/main/2022-09-08%20CASE.jpg
 
 ----------------------------------------------------
 アルディーノnanoを使って構成する基板をKiCADで作りました。また、その基板をマルタ島ハムが追試した際の意見を取り入れスケッチを改良（V2）しました。基板のガーバーデータと改良スケッチをアップロードします。
