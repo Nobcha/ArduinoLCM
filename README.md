@@ -24,7 +24,7 @@ After then the Australian Ham magazine had picked it up as a technical article.
 At that time AADE had already introduced this circuit, produced, and sold as a product for HAMs. 
 In Japan the Strawberry-Linux company had developed a clone and sold those for HAMs.
 
-
+https://github.com/Nobcha/ArduinoLCM/blob/main/2022-09-08%20CASE.jpg
 2. 測定原理　　[The principal]
 
 前置きは以上にして、ArduinoでLC測定のやり方ですが、LC値の導出計算方法は次になります。
