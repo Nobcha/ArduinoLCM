@@ -80,7 +80,8 @@ https://www.youtube.com/watch?v=Qb1QssrIE6A
 
 You may use VANILA shield for this circuit as trial.
 
-https://github.com/Nobcha/ArduinoLCM/blob/main/2022-09-08%20CASE.jpg
+![2022-09-08 CASE](https://github.com/user-attachments/assets/b95539b4-40ed-4d87-b58b-5575915364ab)
+
 
 ----------------------------------------------------
 アルディーノnanoを使って構成する基板をKiCADで作りました。また、その基板をマルタ島ハムが追試した際の意見を取り入れスケッチを改良（V2）しました。基板のガーバーデータと改良スケッチをアップロードします。
