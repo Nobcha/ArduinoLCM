@@ -93,5 +93,10 @@ After then I designed PCB with Arduino nano on KiCAD. A HAM in Malta island trie
 PCBGOGOでは１ドルで基板が作れるというキャンペーンをやっています。下記リンクからユーザー登録し、上記ファイルを送ればプリント基板が入手できます。
 https://www.pcbgogo.jp/promo/nobcha
 
+----------------------------------------------------
+OLED表示版　V6.0を作りました。周波数安定待ち時間を増やしました。
+I changed the 1602A LCD to the OLED (SSD1306). 
+----------------------------------------------------
+
 https://patreon.com/user?u=60539735
 　　nobcha48　AT　gmail.com
