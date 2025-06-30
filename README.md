@@ -94,7 +94,7 @@ PCBGOGOでは１ドルで基板が作れるというキャンペーンをやっ�
 https://www.pcbgogo.jp/promo/nobcha
 
 ----------------------------------------------------
-OLED表示版　V6.0を作りました。周波数安定待ち時間を増やしました。
+OLED表示版　V6.0を作りました。周波数安定待ち時間を増やしました。 https://github.com/Nobcha/ArduinoLCM/blob/main/LCM_10mH.jpg
 I changed the 1602A LCD to the OLED (SSD1306). 
 ----------------------------------------------------
 
