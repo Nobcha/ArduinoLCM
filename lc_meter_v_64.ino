@@ -1,5 +1,5 @@
 // The final version  MEM: 56%/43%  !!RELAY VERSION!!
-// L/C Meter Version 3.0 with OLED (SSD1306 I2C, u8g2 paged buffer) and PJRC FreqCount library
+// L/C Meter Version 6.4 with OLED (SSD1306 I2C, u8g2 paged buffer) and PJRC FreqCount library
 // MCU: Arduino NANO, OSC: 74HCU04, Relay
 // Display: OLED SSD1306 128x64 I2C (u8g2 paged buffer)
 // Frequency Counter: FreqCount library (PJRC version)
