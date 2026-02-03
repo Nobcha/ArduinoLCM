@@ -1,8 +1,8 @@
 # ArduinoLCM
-LC meter based on Franclin oscillator
+LC meter based on Franklin oscillator
 
 [フランクリン発振回路を使用したLCメーター]
-[The LC meter composed by Franclin oscillator.]
+[The LC meter composed by Franklin oscillator.]
 
 Arduinoを使ってLCメーターを作ります。
 I will introduce the LC meter controlled by Arduino.
@@ -15,10 +15,10 @@ I will introduce the LC meter controlled by Arduino.
 1990年ごろに東欧の技術者の方がアイデアを発案され、1995年ごろのオーストラリアのアマチュア無線誌に掲載されたのが普及した始まりのようです。
 その前にアメリカのAADEが製品化,回路とプログラム公開し販売してました。日本でもストロベリーリナックス社が10年以上前から製品化されています。
 
-The Franclin oscillator is composed by the LC resonator and the phase inverting amplifier. 
+The Franklin oscillator is composed by the LC resonator and the phase inverting amplifier. 
 The digital capability could lead LC meter which was calculating L or C value from the basic capacitor's capacitance by solving correlated equation from the oscillation frequency number.
 
-[To compose the Franclin oscillator and MPU ]
+[To compose the Franklin oscillator and MPU ]
 A certain Eastern Europian electronics engineer found this idea in along 1990’s. 
 After then the Australian Ham magazine had picked it up as a technical article. 
 At that time AADE had already introduced this circuit, produced, and sold as a product for HAMs. 
