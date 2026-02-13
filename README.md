@@ -97,6 +97,7 @@ https://www.pcbgogo.jp/promo/nobcha
 OLED表示版　V6.0を作りました。周波数安定待ち時間を増やしました。 ![OLED表示版](https://github.com/Nobcha/ArduinoLCM/blob/main/LCM_10mH.jpg)
 I changed the 1602A LCD to the OLED (SSD1306). 
 ----------------------------------------------------
+https://github.com/Nobcha/ArduinoLCM/blob/main/lc_meter_v_64.ino
+https://nobcha23.hatenablog.com/entry/2025/07/30/230715
 
-https://patreon.com/user?u=60539735
 　　nobcha48　AT　gmail.com
