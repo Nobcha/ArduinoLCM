@@ -60,7 +60,7 @@ Please refer the sketch itself.
 
 回路図は次になります。
 
-I use 74HCU04 inverter IC for the Franclin oscillator. For the sake of switching the standard capacitor, I had adopted the relay. 
+I use 74HCU04 inverter IC for the Franklin oscillator. For the sake of switching the standard capacitor, I had adopted the relay. 
 If you use semiconductor switching, accuracy may decline. The two pole two circuit switch is necessary for LC change.
 I use i2c interfacing LCD for display.
 
